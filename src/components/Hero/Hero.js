@@ -21,9 +21,8 @@ const Hero = (props) => (
         looking for an internship position as a software developer.
       </SectionText>
       <Button
-        onClick={() =>
-          (href = "https://www.linkedin.com/in/mubashar-warriach/")
-        }
+        href="https://www.linkedin.com/in/mubashar-warriach/"
+        onClick={() => (window.location = "")}
       >
         Learn More
       </Button>

@@ -26,44 +26,51 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
-  }
+    return node.scrollTo({ left, behavior: "smooth" });
+  };
 
   const handleClick = (e, i) => {
     e.preventDefault();
 
     if (carouselRef.current) {
-      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
+      const scrollLeft = Math.floor(
+        carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
+      );
 
       scroll(carouselRef.current, scrollLeft);
     }
-  }
+  };
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.round(
+        (carouselRef.current.scrollLeft /
+          (carouselRef.current.scrollWidth * 0.7)) *
+          TimeLineData.length
+      );
 
       setActiveItem(index);
     }
-  }
+  };
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <Section id="about">
       <SectionDivider />
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Courses Taken:-</SectionTitle>
       <SectionText>
-        I am a software engineer with a passion for building applications that
-        solve real world problems. I have a background in software engineering
+        During my time at Rochester Institute of Technology, I have completed a
+        number of courses that have given me a solid foundation in software
+        engineering principles. These courses have included:-
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -129,7 +136,6 @@ const Timeline = () => {
         ))}
       </CarouselButtons>
       <SectionDivider />
-
     </Section>
   );
 };

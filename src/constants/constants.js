@@ -30,7 +30,36 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: "Started my Software Engineering BS with Python" },
-  { year: 2022, text: "Used Java, C, C++, reactJS, Postgresql" },
-  { year: 2023, text: "Looking for internships" },
+  {
+    year: 2021,
+    text: "GCIS-123:- Completed a Python-focused introductory course in computational problem solving, gaining proficiency in problem decomposition, software implementation, and evaluation using this programming language.",
+  },
+  {
+    year: 2022,
+    text: "GCIS-124:- Completed an advanced computational problem-solving course using Java with a focus on object-oriented programming, data structures, and software design principles.",
+  },
+  {
+    year: 2022,
+    text: "SWEN-250:- Completed a project-based course in C and C++ that enhanced technical engineering skills, emphasizing software construction concepts, testing, estimation, and professionalism.",
+  },
+  {
+    year: 2022,
+    text: "SWEN-261:- Collaborated with a team to design and develop a web app, utilizing various software engineering techniques such as UML modeling, domain modeling, Trello, and testing, among others.",
+  },
+  {
+    year: 2022,
+    text: "SWEN-344:- Completed a web engineering course, developing expertise in backend development using RESTful APIs, frontend development using React, and other software engineering principles for web application creation and usability, as well as SQL databases and testing.",
+  },
+  {
+    year: 2022,
+    text: "MATH-190:- A course in discrete mathematics covering propositional and predicate calculus, set theory, relations, recursive structures, and counting, with a focus on applications in computer science.",
+  },
+  {
+    year: 2023,
+    text: "SWEN-262:- Completed a course in software engineering, learning about the software development process, software design, and software testing, as well as the use of UML diagrams and other software engineering tools.",
+  },
+  {
+    year: 2023,
+    text: "SWEN-256:- A course in software process and project management, covering software development methodologies, project planning and tracking, quality assurance, risk management, and process improvement.",
+  },
 ];
