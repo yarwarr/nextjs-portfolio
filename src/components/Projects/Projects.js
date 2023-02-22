@@ -28,10 +28,7 @@ const Projects = () => (
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
-            <Img 
-            width={300}
-            height={200}
-            src={image} />
+            <Img width={50} height={50} src={image} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr />
