@@ -27,6 +27,7 @@ export const projects = [
     visit: "https://google.com",
     id: 2,
   },
+  
 ];
 
 export const TimeLineData = [

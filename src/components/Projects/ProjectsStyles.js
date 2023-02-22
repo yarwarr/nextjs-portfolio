@@ -27,6 +27,10 @@ export const BlogCard = styled.div`
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
+    margin-bottom: 20px; /* add some margin at the bottom */
+    margin-right: 10px; /* add some margin on the right */
+    margin-left: 10px; /* add some margin on the left */
+
     width: 100%;
   }
 `;
@@ -95,12 +99,21 @@ export const ExternalLinks = styled.a`
 `;
 
 export const TagList = styled.ul`
-  display: flex;
+  ${'' /* display: flex;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 2rem; */}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 `;
 export const Tag = styled.li`
+  ${'' /* color: #d8bfbf;
+  font-size: 1.5rem;
+  text-align: center; */}
   color: #d8bfbf;
   font-size: 1.5rem;
   text-align: center;
+  margin: 0.5rem;
 `;
