@@ -20,7 +20,13 @@ const Hero = (props) => (
         Technology with a passion for learning and building new things. I am
         looking for an internship position as a software developer.
       </SectionText>
-      <Button onClick={() => (window.location = "")}>Learn More</Button>
+      <Button
+        onClick={() =>
+          (href = "https://www.linkedin.com/in/mubashar-warriach/")
+        }
+      >
+        Learn More
+      </Button>
     </LeftSection>
   </Section>
 );
