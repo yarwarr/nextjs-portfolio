@@ -24,10 +24,9 @@ export const projects = [
     image: "/images/social_media_app.png",
     tags: ["React", "Node", "Express", "MongoDB"],
     source: "https://github.com/yarwarr/socialMediaWeb",
-    visit: "https://google.com",
+    visit: "https://playful-otter-9fa316.netlify.app",
     id: 2,
   },
-  
 ];
 
 export const TimeLineData = [

@@ -22,7 +22,7 @@ const Hero = (props) => (
       </SectionText>
       <Button
         href="https://www.linkedin.com/in/mubashar-warriach/"
-        onClick={() => (window.location = "")}
+        onClick={() => (window.location = "/amazon")}
       >
         Learn More
       </Button>
