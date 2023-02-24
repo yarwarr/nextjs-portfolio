@@ -14,7 +14,7 @@ export const projects = [
       "React-Hook-Form",
     ],
     source: "https://github.com/yarwarr/amazon-clone",
-    visit: "https://google.com",
+    visit: "https://frolicking-bienenstitch-dcc655.netlify.app",
     id: 3,
   },
   {
