@@ -23,8 +23,8 @@ export const projects = [
       "This project is a social media app built using MERN reactjs, mangoDB, and nodejs. It allows users to sign up / sign in, create posts, add friends / remove friends and like other users posts.",
     image: "/images/social_media_app.png",
     tags: ["React", "Node", "Express", "MongoDB"],
-    source: "https://github.com/yarwarr/socialMediaWeb",
-    visit: "https://playful-otter-9fa316.netlify.app",
+    source: "https://github.com/yarwarr/social-client",
+    visit: "https://incandescent-seahorse-b58f85.netlify.app/home",
     id: 2,
   },
 ];
