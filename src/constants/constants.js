@@ -24,7 +24,7 @@ export const projects = [
     image: "/images/social_media_app.png",
     tags: ["React", "Node", "Express", "MongoDB"],
     source: "https://github.com/yarwarr/social-client",
-    visit: "https://incandescent-seahorse-b58f85.netlify.app/home",
+    visit: "https://incandescent-seahorse-b58f85.netlify.app",
     id: 2,
   },
 ];
