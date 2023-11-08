@@ -27,6 +27,26 @@ export const projects = [
     visit: "https://incandescent-seahorse-b58f85.netlify.app",
     id: 2,
   },
+  {
+    title: "Glassdoor Webscraper",
+    description:
+      "This project's code goes through glassdoor and scrapes all of the usefull data from it. Which I am using for my website called RatemyInterview",
+    image: "/images/glassdoor.png",
+    tags: ["NodeJS", "Puppeteer"],
+    source: "https://github.com/yarwarr/glassdoor-scraper",
+    visit: "glassdoor.com",
+    id: 1,
+  },
+  {
+    title: "RateMyInterview",
+    description:
+      "On this website you can find different companies' interviews reviews",
+    image: "/images/rate-my.PNG",
+    tags: ["NextJS", "TailwindCSS", "MySQL", "OpenAI API"],
+    source: "https://github.com/yarwarr/rate-my-interview",
+    visit: "https://rate-my-interview-ypyg-2evls3v7w-yarwarr.vercel.app",
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
