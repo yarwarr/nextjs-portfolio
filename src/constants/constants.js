@@ -43,7 +43,7 @@ export const projects = [
       "On this website you can find different companies' interviews reviews",
     image: "/images/rate-my.PNG",
     tags: ["NextJS", "TailwindCSS", "MySQL", "OpenAI API"],
-    source: "https://github.com/yarwarr/rate-my-interview",
+    source: "https://github.com/yarwarr/private",
     visit: "https://rate-my-interview-ypyg-2evls3v7w-yarwarr.vercel.app",
     id: 4,
   },
