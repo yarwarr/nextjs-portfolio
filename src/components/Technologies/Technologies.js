@@ -19,6 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
+            Angular <br />
             React.js <br />
             Next.js <br />
             Java GUI <br />
@@ -34,13 +35,17 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
+            Sequelize ORM <br />
+            Drizzle ORM <br />
+            Prisma ORM <br />
             PostgreSQL <br />
+            MySQL <br />
             MongoDB <br />
             Node.js <br />
             Express.js <br />
-            Java <br />
-            Python <br />
-            RestFull APIs <br />
+            Java - Spring <br />
+            Python - Flask <br />
+            REST APIs <br />
 
           </ListParagraph>
         </ListContainer>
@@ -51,6 +56,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
+            CSS <br />
             TailwindCSS <br />
             Material UI <br />
             Adobe Photoshop <br />
