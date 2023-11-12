@@ -47,6 +47,16 @@ export const projects = [
     visit: "https://rate-my-interview-ypyg-2evls3v7w-yarwarr.vercel.app",
     id: 4,
   },
+  {
+    title: "Discord Clone",
+    description:
+      "On this website you can find different companies' interviews reviews",
+    image: "/images/discord.png",
+    tags: ["NextJS", "TailwindCSS", "MySQL", "Sockets"],
+    source: "https://github.com/yarwarr/discord-clone",
+    visit: "https://discord-clone-production-5cfe.up.railway.app/",
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
