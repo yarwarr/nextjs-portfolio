@@ -50,9 +50,9 @@ export const projects = [
   {
     title: "Discord Clone",
     description:
-      "On this website you can find different companies' interviews reviews",
+      "This website has functionality and the look similar to Discord",
     image: "/images/discord.png",
-    tags: ["NextJS", "TailwindCSS", "MySQL", "Sockets"],
+    tags: ["NextJS", "TailwindCSS", "MySQL", "Sockets", "File Uploading"],
     source: "https://github.com/yarwarr/discord-clone",
     visit: "https://discord-clone-production-5cfe.up.railway.app/",
     id: 5,
