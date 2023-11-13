@@ -54,7 +54,7 @@ export const projects = [
     image: "/images/discord.png",
     tags: ["NextJS", "TailwindCSS", "MySQL", "Sockets", "File Uploading"],
     source: "https://github.com/yarwarr/discord-clone",
-    visit: "https://discord-clone-production-5cfe.up.railway.app/",
+    visit: "https://discord-clone-yarwarr.vercel.app",
     id: 5,
   },
 ];
